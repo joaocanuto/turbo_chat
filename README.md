@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+* Corrigindo erro do turbo : https://github.com/heartcombo/devise/issues/5571
