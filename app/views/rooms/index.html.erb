@@ -1,0 +1,15 @@
+<div class="container">
+  <h5><%= current_user.email %></h5>
+  <h4>Users</h4>
+  <% if @users.present? %>
+    <%= render @users %>
+  <% else %>
+    <p>No users found.</p>
+  <% end %>
+  <h4>Rooms</h4>
+  <% if @rooms.present? %>
+    <%= render @rooms %>
+  <% else %>
+    <p>No rooms found.</p>
+  <% end %>
+</div>
